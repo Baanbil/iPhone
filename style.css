@@ -1,0 +1,109 @@
+body{
+  font-family: verdana;
+  display: flex;
+  justify-content: center;
+  background-color: #131720;
+}
+#border{
+  border: 5px solid black;
+  height: 70vh fixed;
+  width: 200px;
+  border-radius: 10px;
+  background-image: url(pexels-steve-845242.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 10px 10px 20px black;
+}
+#border nav{
+  display: flex;
+  justify-content: space-between;
+}
+#nav{
+  text-decoration: none;
+  color: white;
+  margin-top: 5px;
+  font-size: 10px;
+  margin: 2px 5px;
+  font-family: monospace;
+}
+#dynamic{
+  background-color: black;
+  margin-top: 3px;
+  padding: 9px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#time{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+#playlist{
+  border: 1px solid gray;
+  height: 130px;
+  margin: 5px;
+  backdrop-filter: blur(5px);
+  text-align: center;
+  border-radius: 10px;
+}
+#playlist p{
+  font-size: 12px;
+  color: yellow;
+}
+#playing{
+  background-color: white;
+  height: 3px;
+  margin: 0px 10px;
+  border-radius: 10px;
+}
+#bar{
+  height: 3px;
+  background-color: white;
+  width: 50px;
+  padding: 0px 20px;
+  border-radius: 10px;
+}
+#navbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 149px;
+}
+#navbar p{
+  font-size: 12px;
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 932px){
+  #border{
+    height: auto;
+  }
+}
+#play{
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+#pause{
+  cursor: pointer;
+
+}
+#on{
+  display: none;
+  cursor: pointer;
+  margin-left: 82px;
+  background-color: blue;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
